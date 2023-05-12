@@ -1,0 +1,32 @@
+2023-05-12 03:03:01 info: Received message for Lead Object
+2023-05-12 03:03:01 info: created-lead event it isn't subscribed
+2023-05-12 03:03:01 info: Received message for Lead Object
+2023-05-12 03:03:01 info: updated-lead event it isn't subscribed
+2023-05-12 03:04:16 info: Received message for Lead Object
+2023-05-12 03:04:16 info: created-lead event it isn't subscribed
+2023-05-12 03:04:16 info: Received message for Lead Object
+2023-05-12 03:04:16 info: updated-lead event it isn't subscribed
+2023-05-12 03:04:30 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 03:04:30 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 03:04:38 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 03:04:38 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 03:07:10 info: Received message for Lead Object
+2023-05-12 03:07:10 info: Received message for Lead Object
+2023-05-12 03:10:26 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 03:10:26 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 03:11:24 info: Received message for Lead Object
+2023-05-12 03:11:24 info: Creating new lead: Biruk Erjamo (birukdotwork@gmail.com)
+2023-05-12 03:11:24 info: Succeed!
+2023-05-12 03:11:24 info: Received message for Lead Object
+2023-05-12 03:17:24 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 03:17:24 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 03:17:54 info: Received message for Lead Object
+2023-05-12 03:17:54 info: Creating new lead: Biruk Erjamo (birukdotwork@gmail.com)
+2023-05-12 03:17:54 info: Received message for Lead Object
+2023-05-12 03:17:56 info: Entry succeed!
+2023-05-12 03:25:27 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 03:25:27 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 03:33:11 info: Received message for Lead Object
+2023-05-12 03:33:32 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 03:33:32 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 03:33:42 info: Received message for Lead Object

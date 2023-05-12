@@ -1,0 +1,56 @@
+2023-05-12 18:34:38 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:34:38 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:36:35 info: Received message for Lead Object
+2023-05-12 18:36:35 info: Creating new lead: Bro Ski (birukdotwork@gmail.com)
+2023-05-12 18:36:35 info: Received message for Lead Object
+2023-05-12 18:36:37 info: Entry succeed!
+2023-05-12 18:37:48 info: Received message for Lead Object
+2023-05-12 18:37:48 info: Deleting lead record with id of 00QDp000002SOtxMAG
+2023-05-12 18:37:58 info: Deletion succeed!
+2023-05-12 18:40:20 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:40:20 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:41:04 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:41:04 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:41:24 info: Received message for Lead Object
+2023-05-12 18:42:20 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:42:20 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:42:24 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:42:24 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:43:04 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:43:04 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:43:31 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:43:31 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:43:40 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:43:40 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:46:08 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:46:08 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:46:39 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:46:39 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:47:15 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:47:15 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:47:25 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:47:25 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:47:34 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:47:34 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:48:49 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:48:49 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:49:36 info: Received message for Lead Object
+2023-05-12 18:49:36 info: Creating new lead: Biruk Erjamo (birukdotwork@gmail.com)
+2023-05-12 18:49:37 info: Received message for Lead Object
+2023-05-12 18:49:38 info: Entry succeed!
+2023-05-12 18:51:08 info: Received message for Lead Object
+2023-05-12 18:51:08 info: Updating lead record with id of 00QDp000002SP75MAG
+2023-05-12 18:51:12 info: Modification succeed!
+2023-05-12 18:55:31 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:55:31 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:55:53 info: Received message for Lead Object
+2023-05-12 18:55:53 info: Updating lead record with id of 00QDp000002SP75MAG
+2023-05-12 18:55:55 error: Modification failed APIResponseInvalid request URL.
+2023-05-12 18:56:46 info: Received message for Lead Object
+2023-05-12 18:56:46 info: Updating lead record with id of 00QDp000002SP75MAG
+2023-05-12 18:56:47 error: Modification failed APIResponseInvalid request URL.
+2023-05-12 18:56:59 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 18:56:59 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 18:57:06 info: Received message for Lead Object
+2023-05-12 18:57:06 info: Updating lead record with id of 00QDp000002SP75MAG
+2023-05-12 18:57:09 info: Modification succeed!

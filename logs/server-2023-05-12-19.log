@@ -1,0 +1,35 @@
+2023-05-12 19:17:37 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:17:37 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:17:39 info: PushTopic /topic/Lead does not exist, creating...
+2023-05-12 19:17:40 info: Salesforce push topic check failed: INVALID_FIELD: Topic name '/topic/Lead' contains unsupported characters. Supported character set: A-Z, a-z, 0-9, '.', '-' and '_'. First character must be alpha numeric.
+2023-05-12 19:17:59 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:17:59 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:18:00 info: PushTopic /topic/Lead does not exist, creating...
+2023-05-12 19:18:15 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:18:15 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:18:16 info: PushTopic Lead already exists
+2023-05-12 19:20:17 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:20:17 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:20:19 info: PushTopic Lead already exists
+2023-05-12 19:20:35 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:20:35 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:20:37 info: PushTopic Lead already exists
+2023-05-12 19:20:49 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:20:49 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:20:51 info: PushTopic Lead already exists
+2023-05-12 19:20:57 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:20:57 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:20:58 info: PushTopic Lead already exists
+2023-05-12 19:21:08 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:21:08 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:21:10 info: PushTopic Lead already exists
+2023-05-12 19:21:19 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:21:19 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:21:20 info: PushTopic LeadTest does not exist, creating...
+2023-05-12 19:21:39 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:21:39 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:21:40 info: PushTopic LeadTest does not exist, creating...
+2023-05-12 19:21:41 info: PushTopic LeadTest created successfully
+2023-05-12 19:22:31 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 19:22:31 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 19:22:32 info: PushTopic Lead already exists

@@ -1,0 +1,33 @@
+{
+    "topic_name": "/topic/Lead",
+    "fields": [
+        {
+            "name": "Id",
+            "type": "title"
+        },
+        {
+            "name": "Name",
+            "type": "text"
+        },
+        {
+            "name": "Title",
+            "type": "text"
+        },
+        {
+            "name": "Company",
+            "type": "text"
+        },
+        {
+            "name": "Phone",
+            "type": "text"
+        },
+        {
+            "name": "Email",
+            "type": "text"
+        },
+        {
+            "name": "Status",
+            "type": "text"
+        }
+    ]
+}

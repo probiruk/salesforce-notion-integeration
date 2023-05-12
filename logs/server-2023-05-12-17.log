@@ -1,0 +1,57 @@
+2023-05-12 17:04:44 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:04:44 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:05:05 info: Received message for Lead Object
+2023-05-12 17:05:05 info: Creating new lead: Sasd Dad (null)
+2023-05-12 17:05:05 info: Received message for Lead Object
+2023-05-12 17:05:07 error: Entry failed APIResponseCould not find database with ID: 879bd981-9f31-4f1e-bcea-4d4cb349f38f. Make sure the relevant pages and databases are shared with your integration.
+2023-05-12 17:07:29 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:07:29 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:07:44 info: Received message for Lead Object
+2023-05-12 17:07:44 info: Creating new lead: Sass Saa (null)
+2023-05-12 17:07:45 info: Received message for Lead Object
+2023-05-12 17:07:45 info: Entry succeed!
+2023-05-12 17:08:37 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:08:37 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:08:49 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:08:49 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:10:02 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:10:03 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:10:06 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:10:06 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:11:22 info: Received message for Lead Object
+2023-05-12 17:11:22 info: Creating new lead: Biruk Erjamo (birukdotwork@gmail.com)
+2023-05-12 17:11:23 info: Received message for Lead Object
+2023-05-12 17:11:25 error: Entry failed APIResponseName is expected to be title.
+2023-05-12 17:11:59 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:11:59 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:12:04 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:12:04 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:12:23 info: Received message for Lead Object
+2023-05-12 17:12:23 info: Creating new lead: Suu Suu (null)
+2023-05-12 17:12:24 info: Received message for Lead Object
+2023-05-12 17:12:24 info: Entry succeed!
+2023-05-12 17:12:59 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:12:59 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:13:25 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:13:25 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:13:31 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:13:31 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:14:47 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:14:47 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:15:20 info: Received message for Lead Object
+2023-05-12 17:15:20 info: Creating new lead: Biruk Erjamo (birukdotwork@gmail.com)
+2023-05-12 17:15:22 error: Entry failed APIResponsebody failed validation: body.properties.Title.rich_text[0].text.content should be a string, instead was `null`.
+2023-05-12 17:15:22 info: Received message for Lead Object
+2023-05-12 17:16:31 info: Logged in to Salesforce as: probiruk1@force.com
+2023-05-12 17:16:31 info: Subscribed Events: [created-lead, updated-lead, deleted-lead]
+2023-05-12 17:16:59 info: Received message for Lead Object
+2023-05-12 17:16:59 info: Creating new lead: Biruk Erjamo (birukdotwork@gmail.com)
+2023-05-12 17:17:00 info: Received message for Lead Object
+2023-05-12 17:17:00 error: Entry failed APIResponseCould not find database with ID: c304c3ff-434c-4b15-b247-99893fe3f661. Make sure the relevant pages and databases are shared with your integration.
+2023-05-12 17:18:24 info: Received message for Lead Object
+2023-05-12 17:18:24 info: Creating new lead: Biruk Erjamo (null)
+2023-05-12 17:18:24 info: Received message for Lead Object
+2023-05-12 17:18:26 info: Entry succeed!
+2023-05-12 17:19:25 info: Received message for Lead Object
+2023-05-12 17:19:25 info: Deleting lead record with id of 00QDp000002SOszMAG
+2023-05-12 17:19:28 info: Deletion succeed!

@@ -1,0 +1,36 @@
+{
+  "name": "salesforce-notion",
+  "version": "1.0.0",
+  "description": "salesforce integeration with notion",
+  "author": "Biruk Erjamo <birukdotwork@gmail.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "format": "prettier --write src/**/*.ts",
+    "docker-build": "docker build -t app .",
+    "docker-run": "docker run --env-file .env app"
+  },
+  "keywords": [
+    "notion",
+    "salesforce"
+  ],
+  "dependencies": {
+    "@notionhq/client": "^2.2.4",
+    "dotenv": "^16.0.1",
+    "jsforce": "^1.11.0",
+    "nodemon": "^2.0.22",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/jsforce": "^1.11.0",
+    "@types/node": "^18.0.3",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}

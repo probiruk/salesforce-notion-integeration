@@ -1,0 +1,10 @@
+PushTopic leadTopic = new PushTopic();
+leadTopic.Name = 'Lead';
+leadTopic.Query = 'SELECT Id, Name, Title, Company, Phone, Email, Status FROM Lead';
+leadTopic.NotifyForOperationCreate = true;
+leadTopic.NotifyForOperationUpdate = true;
+leadTopic.NotifyForOperationUndelete = false;
+leadTopic.NotifyForOperationDelete = true;
+leadTopic.NotifyForFields = 'All';
+leadTopic.ApiVersion = 48.0;
+create leadTopic;
