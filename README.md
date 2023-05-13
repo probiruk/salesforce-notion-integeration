@@ -5,8 +5,8 @@ This repository contains code that allows you to migrate Salesforce objects data
 ## Installation
 
 ### Before Installation
-1. Make sure your added your current ip address in salesforce whitlist before your ran the script
-2. Create Table for Lead & Opportunity with the fields that list on config.json
+1. Make sure your added your current ip address in salesforce whitlist before your run the script
+2. Create Tables for Lead & Opportunity with the fields that list on config.json
 
 ## Leads Notion Table Fields:
 ```
