@@ -47,6 +47,16 @@ OPPORTUNITY_DATABASE_ID=your_opportunity_database_notion_id
 
 To migrate data from a Salesforce object to a Notion database, First make sure the script is running `npm start` then make a change on salesforce it will reflect on notion in a few
 
+## NPM Scripts
+| Command | Description |
+| --- | --- |
+| `npm start` | Run src/index.ts |
+| `npm run dev` | Run src/index.ts in development mode also it restart when making changes |
+| `npm run typecheck` | Type check using the TypeScript compiler. |
+| `npm run format` | Format using Prettier (also recommended: the Prettier VS Code extension if you're using VS code.) |
+| `npm run docker-build` | It create docker container |
+| `npm run docker-run` | Run the docker container |
+
 ## Log Example
 
 ![alt text](https://github.com/probiruk/salesforce-notion-integeration/blob/master/screenshots/image_2023-05-13_09-47-37.png)
