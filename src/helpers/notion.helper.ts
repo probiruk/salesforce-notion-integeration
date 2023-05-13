@@ -1,44 +1,49 @@
 import notionCon from '../connections/notion.con'
 import leadConfig from '../objects/lead/config.json'
+import opportunityConfig from '../objects/opportunity/config.json'
 import logger from './logger.helper'
 
 const notion = {
     AddItem: async (data: any, object: string, database_id: string) => {
         try {
+            const fieldsConfig =
+                object == 'lead' ? leadConfig : opportunityConfig
             let properties: any = {}
 
-            if (object == 'lead') {
-                leadConfig.fields.forEach((field) => {
-                    if (field.type == 'title') {
-                        properties[field.name] = {
-                            type: 'title',
-                            title: [
-                                {
-                                    type: 'text',
-                                    text: {
-                                        content: data[field.name],
-                                        link: null,
-                                    },
+            fieldsConfig.fields.forEach((field) => {
+                if (field.type == 'title') {
+                    properties[field.name] = {
+                        type: 'title',
+                        title: [
+                            {
+                                type: 'text',
+                                text: {
+                                    content: data[field.name],
+                                    link: null,
                                 },
-                            ],
-                        }
-                    } else if (field.type == 'text') {
-                        properties[field.name] = {
-                            rich_text: [
-                                {
-                                    type: 'text',
-                                    text: {
-                                        content:
-                                            data[field.name] == null
-                                                ? ''
-                                                : data[field.name],
-                                    },
-                                },
-                            ],
-                        }
+                            },
+                        ],
                     }
-                })
-            }
+                } else if (field.type == 'text') {
+                    properties[field.name] = {
+                        rich_text: [
+                            {
+                                type: 'text',
+                                text: {
+                                    content:
+                                        data[field.name] == null
+                                            ? ''
+                                            : data[field.name],
+                                },
+                            },
+                        ],
+                    }
+                } else if (field.type == 'number') {
+                    properties[field.name] = {
+                        number: data[field.name],
+                    }
+                }
+            })
 
             await notionCon.pages.create({
                 parent: { database_id: database_id },
@@ -73,41 +78,44 @@ const notion = {
             }
 
             const recordId = response.results[0].id
-
+            const fieldsConfig =
+                object == 'lead' ? leadConfig : opportunityConfig
             let properties: any = {}
 
-            if (object == 'lead') {
-                leadConfig.fields.forEach((field) => {
-                    if (field.type == 'title') {
-                        properties[field.name] = {
-                            type: 'title',
-                            title: [
-                                {
-                                    type: 'text',
-                                    text: {
-                                        content: data[field.name],
-                                        link: null,
-                                    },
+            fieldsConfig.fields.forEach((field) => {
+                if (field.type == 'title') {
+                    properties[field.name] = {
+                        type: 'title',
+                        title: [
+                            {
+                                type: 'text',
+                                text: {
+                                    content: data[field.name],
+                                    link: null,
                                 },
-                            ],
-                        }
-                    } else if (field.type == 'text') {
-                        properties[field.name] = {
-                            rich_text: [
-                                {
-                                    type: 'text',
-                                    text: {
-                                        content:
-                                            data[field.name] == null
-                                                ? ''
-                                                : data[field.name],
-                                    },
-                                },
-                            ],
-                        }
+                            },
+                        ],
                     }
-                })
-            }
+                } else if (field.type == 'text') {
+                    properties[field.name] = {
+                        rich_text: [
+                            {
+                                type: 'text',
+                                text: {
+                                    content:
+                                        data[field.name] == null
+                                            ? ''
+                                            : data[field.name],
+                                },
+                            },
+                        ],
+                    }
+                } else if (field.type == 'number') {
+                    properties[field.name] = {
+                        number: data[field.name],
+                    }
+                }
+            })
 
             await notionCon.pages.update({
                 page_id: recordId,

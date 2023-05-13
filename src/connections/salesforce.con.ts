@@ -35,7 +35,18 @@ const checkPushTopic = async (query: string, pushTopicName: string) => {
                     NotifyForOperationUndelete: false,
                     NotifyForOperationDelete: true,
                     NotifyForFields: 'All',
-                    ApiVersion: "48.0"
+                    ApiVersion: '48.0',
+                }
+            } else if (pushTopicName == 'Opportunity') {
+                pushTopic = {
+                    Name: pushTopicName,
+                    Query: 'SELECT Id, Name, Amount, StageName, Probability, CloseDate FROM opportunity',
+                    NotifyForOperationCreate: true,
+                    NotifyForOperationUpdate: true,
+                    NotifyForOperationUndelete: false,
+                    NotifyForOperationDelete: true,
+                    NotifyForFields: 'All',
+                    ApiVersion: '48.0',
                 }
             } else {
                 return

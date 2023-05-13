@@ -1,0 +1,10 @@
+PushTopic opportunityTopic = new PushTopic();
+opportunityTopic.Name = 'Opportunity';
+opportunityTopic.Query = 'SELECT Id, Name, Amount, StageName, Probability, CloseDate FROM opportunity';
+opportunityTopic.NotifyForOperationCreate = true;
+opportunityTopic.NotifyForOperationUpdate = true;
+opportunityTopic.NotifyForOperationUndelete = false;
+opportunityTopic.NotifyForOperationDelete = true;
+opportunityTopic.NotifyForFields = 'All';
+opportunityTopic.ApiVersion = 48.0;
+create opportunityTopic;

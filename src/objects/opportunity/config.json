@@ -1,0 +1,29 @@
+{
+    "topic_name": "/topic/Opportunity",
+    "fields": [
+        {
+            "name": "Id",
+            "type": "title"
+        },
+        {
+            "name": "Name",
+            "type": "text"
+        },
+        {
+            "name": "Amount",
+            "type": "number"
+        },
+        {
+            "name": "StageName",
+            "type": "text"
+        },
+        {
+            "name": "Probability",
+            "type": "number"
+        },
+        {
+            "name": "CloseDate",
+            "type": "text"
+        }
+    ]
+}

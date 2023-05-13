@@ -2,6 +2,7 @@ import salesforce from "./connections/salesforce.con"
 
 // Import salesforce runners
 import leadRunner from "./objects/lead/runner"
+import opportunityRunner from "./objects/opportunity/runner"
 import logger from "./helpers/logger.helper"
 
 const main = async () => {
@@ -19,12 +20,13 @@ const main = async () => {
 
     if (sforce) {
         // Events that are subscribed
-        const events = ['created-lead', 'updated-lead', 'deleted-lead']
+        const events = ['created-lead', 'updated-lead', 'deleted-lead', 'created-opportunity', 'updated-opportunity', 'deleted-opportunity']
 
         logger.info(`Subscribed Events: [${String(events).split(',').join(', ')}]` )
 
         // running salesforce objects
         leadRunner(events, sforce)
+        opportunityRunner(events, sforce)
     }
 }
 

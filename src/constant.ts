@@ -1,3 +1,3 @@
-const pushTopics: string[] = ['Lead']
+const pushTopics: string[] = ['Lead', 'Opportunity']
 
 export default pushTopics

@@ -7,8 +7,8 @@ import logger from "../../helpers/logger.helper";
 // Importing enviroment variables
 dotenv.config()
 
-const object = "lead"
-const database_id = String(process.env.LEAD_DATABASE_ID)
+const object = "opportunity"
+const database_id = String(process.env.OPPORTUNITY_DATABASE_ID)
 
 export default async (events: string[], sforce: jsforce.Connection) => {
     try {
@@ -24,7 +24,7 @@ export default async (events: string[], sforce: jsforce.Connection) => {
                 const { sobject } = message;
                 
                 if (message.event.type == `created`) {
-                    logger.info(`Creating new ${object}: ${sobject.Name} (${sobject.Email})`)
+                    logger.info(`Creating new ${object}: ${sobject.Name}`)
                     notion.AddItem(sobject, object, database_id);
                     replyId = Number(message.event.replayId)
                 }
