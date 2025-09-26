@@ -63,4 +63,5 @@ To migrate data from a Salesforce object to a Notion database, First make sure t
 
 ## Author
 
-Biruk Erjamo <birukdotwork@gmail.com>
+Biruk Erjamo <birukerjamo@gmail.com>
+
